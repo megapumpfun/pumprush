@@ -17,6 +17,9 @@ jobs:
       - name: Setup Flyctl
         uses: superfly/flyctl-actions/setup-flyctl@master
 
+      - name: Create Fly App if not exists
+        run: flyctl apps create ${{ env.FLY_APP_NAME }} --machines || true
+
       - name: Create fly.toml
         run: |
           cat > fly.toml << EOL
