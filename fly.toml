@@ -1,6 +1,6 @@
 app = "telegram-rushmeta-bot"
 
-primary_region = "lax"
+primary_region = "lax" 
 kill_timeout = "5s"
 
 [build]
