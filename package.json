@@ -1,0 +1,16 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "@supabase/supabase-js": "^2.39.3",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
